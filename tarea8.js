@@ -3,7 +3,7 @@ let entrada;
 
 do{
     entrada = prompt('Ingresa tu DNI');
-}while( entrada.length < 8 )
+}while( entrada.length < 8 || entrada.includes('-'))
 
 parseInt(entrada);
 
